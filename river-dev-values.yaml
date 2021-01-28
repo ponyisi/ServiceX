@@ -30,6 +30,8 @@ preflight:
 # image: sslhep/servicex_func_adl_uproot_transformer
 
 didFinder:
+  image: ivukotic/did
+  tag: latest
   pullPolicy: Always
   # For ATLAS Use these:
   rucio_host: https://voatlasrucio-server-prod.cern.ch:443
